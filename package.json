@@ -1,0 +1,21 @@
+{
+  "name": "upstep",
+  "version": "1.0.0",
+  "description": "Application updater helper.",
+  "main": "upstep.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha -- -R spec"
+  },
+  "keywords": [
+    "update"
+  ],
+  "author": "Bloglovin <dev@bloglovin.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "~0.2.4",
+    "mocha": "~1.17.1"
+  },
+  "dependencies": {
+    "semver": "~2.2.1"
+  }
+}
